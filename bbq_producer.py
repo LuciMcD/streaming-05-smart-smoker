@@ -58,9 +58,9 @@ def send_temps(host: str, queue_name: str):
 
             for row in reader:
                 Time,Channel1,Channel2,Channel3 = row
-                smoker_temp = ''.join(Time, Channel1)
-                food_A = ''.join(Time, Channel2)
-                food_B = ''.join(Time, Channel3)
+                smoker_temp = ','.join([Time, Channel1])
+                food_A = ','.join([Time, Channel2])
+                food_B = ','.join([Time, Channel3])
                 # use the channel to read and publish a temperature to the queue
                 # every message passes through an exchange
                 ch.basic_publish(exchange="", routing_key="01-smoker", body=smoker_temp)
@@ -84,10 +84,10 @@ def send_temps(host: str, queue_name: str):
 # If this is the program being run, then execute the code below
 if __name__ == "__main__":  
     # ask the user if they'd like to open the RabbitMQ Admin site
-    offer_rabbitmq_admin_site(show_offer=False) #when show_offer=False the user will not be asked to open RabbitMQ Admin site.
+    offer_rabbitmq_admin_site(show_offer=True) #when show_offer=False the user will not be asked to open RabbitMQ Admin site.
 
     # send the message to the queue
     send_temps("localhost","01-smoker")
     send_temps("localhost","02-food-A")
     send_temps("localhost","03-food-B")
-    time.sleep_secs(30) 
+    time.sleep(30) #Read one value every half minute or 30 seconds. 
