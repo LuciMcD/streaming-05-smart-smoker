@@ -14,11 +14,15 @@ import time
 from util_logger import setup_logger
 logger, logname = setup_logger(__file__)
 
+from collections import deque
+smoker_deque = deque(maxlen=5) #the 5 most recent readings
+
 # define a callback function to be called when the data is received.
 def smoker_callback(ch, method, properties, body):
     # decode the binary message body to a string
     logger.info(f" [x] Received {body.decode()}")
-    
+    #read a temperature every 30 seconds.
+    time.sleep(30)
     # when done with task, tell the user
     logger.info(" [x] Done.")
     # acknowledge the message was received and processed 
@@ -47,7 +51,8 @@ def main(hn: str = "localhost", qn: str ="01-smoker"):
     try:
         # use the connection to create a communication channel
         ch = connection.channel()
-
+        #delete each queue before declaring a new one
+        ch.queue_delete(queue="01-smoker")
         # use the channel to declare a durable queue
         # a durable queue will survive a RabbitMQ server restart
         # and help ensure messages are processed in order
