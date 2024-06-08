@@ -16,12 +16,11 @@ from util_logger import setup_logger
 logger, logname = setup_logger(__file__)
 
 # define a callback function to be called when a message is received
-def callback(ch, method, properties, body):
+def foodA_callback(ch, method, properties, body):
     """ Define behavior on getting a message."""
     # decode the binary message body to a string
     logger.info(f" [x] Received {body.decode()}")
-    # simulate work by sleeping for the number of dots in the message
-    time.sleep(body.count(b"."))
+   
     # when done with task, tell the user
     logger.info(" [x] Done.")
     # acknowledge the message was received and processed 
@@ -30,7 +29,7 @@ def callback(ch, method, properties, body):
 
 
 # define a main function to run the program
-def main(hn: str = "localhost", qn: str ="01-smoker"):
+def main(hn: str = "localhost", qn: str ="02-food-A"):
     """ Continuously listen for task messages on a named queue."""
 
     # when a statement can go wrong, use a try-except block
@@ -56,7 +55,7 @@ def main(hn: str = "localhost", qn: str ="01-smoker"):
         # a durable queue will survive a RabbitMQ server restart
         # and help ensure messages are processed in order
         # messages will not be deleted until the consumer acknowledges
-        ch.queue_declare(queue=qn, durable=True)
+        ch.queue_declare(queue="02-food-A", durable=True)
 
         # The QoS level controls the # of messages
         # that can be in-flight (unacknowledged by the consumer)
@@ -65,16 +64,16 @@ def main(hn: str = "localhost", qn: str ="01-smoker"):
         # being consumed and processed concurrently.
         # This helps prevent a worker from becoming overwhelmed
         # and improve the overall system performance. 
-        # prefetch_count = Per consumer limit of unaknowledged messages      
+        # prefetch_count = Per consumer limit of unacknowledged messages      
         ch.basic_qos(prefetch_count=1) 
 
         # configure the channel to listen on a specific queue,  
         # use the callback function named callback,
         # and do not auto-acknowledge the message (let the callback handle it)
-        ch.basic_consume( queue=qn, on_message_callback=callback)
+        ch.basic_consume( queue="02-food-A", on_message_callback=foodA_callback)
 
         # print a message to the console for the user
-        logger.info(" [*] Ready for work. To exit press CTRL+C")
+        logger.info(" [*] Ready to read food temperatures. To exit press CTRL+C")
 
         # start consuming messages via the communication channel
         ch.start_consuming()
@@ -100,4 +99,4 @@ def main(hn: str = "localhost", qn: str ="01-smoker"):
 # If this is the program being run, then execute the code below
 if __name__ == "__main__":
     # call the main function with the information needed
-    main("localhost", "task_queue3")
+    main("localhost", "02-food-A")
