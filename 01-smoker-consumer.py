@@ -23,6 +23,14 @@ def smoker_callback(ch, method, properties, body):
     logger.info(f" [x] Received {body.decode()}")
     #read a temperature every 30 seconds.
     time.sleep(30)
+    #subtracting current temp from previously read temp to alert when difference of 15 degrees is reached.
+    smoker_deque.append()
+    if len(smoker_deque) < 2:
+        return
+    temp_diff = smoker_deque[-1] - smoker_deque[0]
+    if temp_diff < -15:
+        logger.info(f"Smoker Alert! The temperature has decreased by 15 degrees F.
+                     Current temperauture: {smoker_deque[-1]}F")
     # when done with task, tell the user
     logger.info(" [x] Done.")
     # acknowledge the message was received and processed 

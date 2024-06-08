@@ -55,12 +55,15 @@ def send_temps(host: str, queue_name: str):
 
         with open('smoker-temps.csv', 'r') as file:
             reader = csv.reader(file, delimiter=",")
-
+            header = next(reader) #skipping the header row
             for row in reader:
                 Time,Channel1,Channel2,Channel3 = row
                 smoker_temp = ','.join([Time, Channel1])
                 food_A = ','.join([Time, Channel2])
                 food_B = ','.join([Time, Channel3])
+                #Read one value every 30 seconds
+                time.sleep(30)
+
                 # use the channel to read and publish a temperature to the queue
                 # every message passes through an exchange
                 ch.basic_publish(exchange="", routing_key="01-smoker", body=smoker_temp)
@@ -90,4 +93,4 @@ if __name__ == "__main__":
     send_temps("localhost","01-smoker")
     send_temps("localhost","02-food-A")
     send_temps("localhost","03-food-B")
-    time.sleep(30) #Read one value every half minute or 30 seconds. 
+   
