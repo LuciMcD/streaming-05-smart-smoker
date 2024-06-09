@@ -10,6 +10,7 @@
 import pika
 import sys
 import time
+import math
 
 from util_logger import setup_logger
 logger, logname = setup_logger(__file__)
@@ -19,6 +20,7 @@ smoker_deque = deque(maxlen=5) # the 5 most recent readings
 
 # define a callback function to be called when the data is received.
 def smoker_callback(ch, method, properties, body):
+    temp = ['0']
     message = body.decode()
     
     # decode the binary message body to a string
@@ -26,19 +28,21 @@ def smoker_callback(ch, method, properties, body):
 
     #split the message by comma so only the temp is read
     parts = message.split(',')
-    temp = float(parts[1].strip())
+    temp[0] = float(parts[1].strip())
 
-    
     smoker_deque.append(temp) #append the new temperature to the deque
-    logger.info(temp)
     #subtracting current temp from previously read temp to alert when difference of 15 degrees is reached.
-    if len(smoker_deque) < 2:
-        return
-    temp_diff = smoker_deque[-1] - smoker_deque[0]
-    if temp_diff < -15:
-        logger.info(f"Smoker Alert! The temperature has decreased by 15 degrees F. Current temperauture: {smoker_deque[-1]}F")
+    if len(smoker_deque) == 5:
+    
+        temp_diff = temp[-1] - temp[0]
+        if temp_diff < -15:
+            logger.info(f"Smoker Alert! The temperature has decreased by 15 degrees F. Current temperauture: {smoker_deque[-1]}F")
     # when done with task, tell the user
-    logger.info(" [x] Done.")
+        else:
+            logger.info(f" [x] Current temp: {temp[0]}")
+    else:
+        logger.info(f" [x] Current temp: {temp[0]}")
+    
     # acknowledge the message was received and processed 
     # (now it can be deleted from the queue)   #delete each queue before declaring a new one
     ch.basic_ack(delivery_tag=method.delivery_tag)
@@ -63,7 +67,7 @@ def main(hn: str = "localhost", qn: str ="01-smoker"):
     try:
         # use the connection to create a communication channel
         ch = connection.channel()
-        
+        ch.queue_delete("01-smoker")
         # use the channel to declare a durable queue
         # a durable queue will survive a RabbitMQ server restart
         # and help ensure messages are processed in order
@@ -85,7 +89,7 @@ def main(hn: str = "localhost", qn: str ="01-smoker"):
         # configure the channel to listen on a specific queue,  
         # use the callback function named smoker_callback,
         # and do not auto-acknowledge the message (let the callback handle it)
-        ch.basic_consume( queue="01-smoker", on_message_callback=smoker_callback)
+        ch.basic_consume( queue="01-smoker", auto_ack=False, on_message_callback=smoker_callback)
 
         # print a message to the console for the user
         logger.info(" [*] Ready to read temperatures. To exit press CTRL+C")
@@ -113,4 +117,4 @@ def main(hn: str = "localhost", qn: str ="01-smoker"):
 if __name__ == "__main__":
     # call the main function with the information needed
     main("localhost", "01-smoker")
-    #time.sleep(30)#reading every 30 seconds
+    

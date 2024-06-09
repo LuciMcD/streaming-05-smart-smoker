@@ -11,6 +11,7 @@
 import pika
 import sys
 import time
+import math
 
 from util_logger import setup_logger
 logger, logname = setup_logger(__file__)
@@ -20,25 +21,27 @@ foodA_deque = deque(maxlen=20)#limited to the 20 most recent readings
 
 # define a callback function to be called when a message is received
 def foodA_callback(ch, method, properties, body):
-    """ Define behavior on getting a message."""
+    temp = ['0']
     message = body.decode()
     # decode the binary message body to a string
     logger.info(f" [x] Received {message}")
     
     #split the message by comma so only the temp is read
     parts = message.split(',')
-    temp = float(parts[1].strip())
+    temp[0] = float(parts[1].strip())
     
     foodA_deque.append(temp)
-    logger.info(temp)
 
-    if len(foodA_deque) < 2:
-        return
-    temp_diff = foodA_deque[-1] - foodA_deque[0]
-    if temp_diff < 1:
-        logger.info(f"Alert! Food temperature stall! {temp}")
+    if len(foodA_deque) == 5:
+        temp_diff = temp[-1] - temp[0]
+        if temp_diff < 1:
+            logger.info(f"Alert! Food temperature stall! {temp}")
     # when done with task, tell the user
-    logger.info(" [x] Done.")
+        else:
+            logger.info(f" [x] Current temp: {temp[0]}")
+    else:
+        logger.info(f" [x] Current temp: {temp[0]}")
+
     # acknowledge the message was received and processed 
     # (now it can be deleted from the queue)
     ch.basic_ack(delivery_tag=method.delivery_tag)
@@ -67,7 +70,7 @@ def main(hn: str = "localhost", qn: str ="02-food-A"):
         # use the connection to create a communication channel
         ch = connection.channel()
         #delete each queue before declaring a new one
-        #ch.queue_delete(queue="02-food-A")
+        ch.queue_delete(queue="02-food-A")
 
         # use the channel to declare a durable queue
         # a durable queue will survive a RabbitMQ server restart
@@ -88,15 +91,13 @@ def main(hn: str = "localhost", qn: str ="02-food-A"):
         # configure the channel to listen on a specific queue,  
         # use the callback function named callback,
         # and do not auto-acknowledge the message (let the callback handle it)
-        ch.basic_consume( queue="02-food-A", on_message_callback=foodA_callback)
+        ch.basic_consume( queue="02-food-A", auto_ack=False, on_message_callback=foodA_callback)
 
         # print a message to the console for the user
         logger.info(" [*] Ready to read food temperatures. To exit press CTRL+C")
 
         # start consuming messages via the communication channel
         ch.start_consuming()
-        # delete the queue after processing
-        ch.queue_delete(queue="02-food-A")
 
     # except, in the event of an error OR user stops the process, do this
     except Exception as e:
