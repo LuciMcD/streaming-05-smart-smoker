@@ -1,11 +1,14 @@
-2024-06-08 17:05:06,940.01-smoker-consumer.INFO ==================================================
-2024-06-08 17:05:06,941.01-smoker-consumer.INFO Today is 2024-06-08 at 05:05 PM
-2024-06-08 17:05:06,941.01-smoker-consumer.INFO Running on: nt Windows 10
-2024-06-08 17:05:06,941.01-smoker-consumer.INFO Python version:  3.11.4
-2024-06-08 17:05:06,942.01-smoker-consumer.INFO Python path: C:\Users\lucim\Streaming Data\streaming-05-smart-smoker\.venv
-2024-06-08 17:05:06,942.01-smoker-consumer.INFO Working dir: C:\Users\lucim\Streaming Data\streaming-05-smart-smoker
-2024-06-08 17:05:06,942.01-smoker-consumer.INFO ==================================================
-2024-06-08 17:05:07,050.01-smoker-consumer.INFO  [*] Ready to read temperatures. To exit press CTRL+C
-2024-06-08 17:05:17,707.01-smoker-consumer.INFO 
+2024-06-08 21:39:13,754.01-smoker-consumer.INFO ==================================================
+2024-06-08 21:39:13,754.01-smoker-consumer.INFO Today is 2024-06-08 at 09:39 PM
+2024-06-08 21:39:13,754.01-smoker-consumer.INFO Running on: nt Windows 10
+2024-06-08 21:39:13,754.01-smoker-consumer.INFO Python version:  3.11.4
+2024-06-08 21:39:13,754.01-smoker-consumer.INFO Python path: C:\Users\lucim\Streaming Data\streaming-05-smart-smoker\.venv
+2024-06-08 21:39:13,754.01-smoker-consumer.INFO Working dir: C:\Users\lucim\Streaming Data\streaming-05-smart-smoker
+2024-06-08 21:39:13,754.01-smoker-consumer.INFO ==================================================
+2024-06-08 21:39:13,766.01-smoker-consumer.INFO  [*] Ready to read temperatures. To exit press CTRL+C
+2024-06-08 21:39:36,845.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:20:15,84.2
+2024-06-08 21:39:36,845.01-smoker-consumer.INFO 84.2
+2024-06-08 21:43:03,877.01-smoker-consumer.INFO  User interrupted continuous listening process.
+2024-06-08 21:43:03,879.01-smoker-consumer.INFO 
 Closing connection. Goodbye.
 

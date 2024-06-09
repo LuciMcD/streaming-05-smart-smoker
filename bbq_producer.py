@@ -46,9 +46,7 @@ def send_temps(host: str, queue_name: str):
         # a durable queue will survive a RabbitMQ server restart
         # and help ensure messages are processed in order
         # messages will not be deleted until the consumer acknowledges
-        ch.queue_delete(queue="01-smoker")
-        ch.queue_delete(queue="02-food-A")
-        ch.queue_delete(queue="03-food-B")
+        
         ch.queue_declare(queue="01-smoker", durable=True)
         ch.queue_declare(queue="02-food-A", durable=True)
         ch.queue_declare(queue="03-food-B", durable=True)
@@ -58,26 +56,28 @@ def send_temps(host: str, queue_name: str):
             header = next(reader) #skipping the header row
             for row in reader:
                 Time,Channel1,Channel2,Channel3 = row
-                smoker_temp = ','.join([Time, Channel1])
-                food_A = ','.join([Time, Channel2])
-                food_B = ','.join([Time, Channel3])
-                #Read one value every 30 seconds
                 time.sleep(30)
+                if Channel1: #ignoring null values
+                    smoker_temp = ','.join([Time, Channel1])
+                    ch.basic_publish(exchange="", routing_key="01-smoker", body=smoker_temp)
+                    logger.info(f" [x] Smoker Temperature is {smoker_temp}")
+                
+                if Channel2:
+                    food_A = ','.join([Time, Channel2])
+                    ch.basic_publish(exchange="", routing_key="02-food-A", body=food_A)
+                    logger.info(f" [x] Food A Temperature is {food_A}")
 
-                # use the channel to read and publish a temperature to the queue
-                # every message passes through an exchange
-                ch.basic_publish(exchange="", routing_key="01-smoker", body=smoker_temp)
-                ch.basic_publish(exchange="", routing_key="02-food-A", body=food_A)
-                ch.basic_publish(exchange="", routing_key="03-food-B", body=food_B)
-                # print a temperature to the console for the user
-                logger.info(f" [x] Smoker Temperature is {smoker_temp}")
-                logger.info(f" [x] Food A Temperature is {food_A}")
-                logger.info(f" [x] Food B Temperature is {food_B}")
+                if Channel3:
+                    food_B = ','.join([Time, Channel3])
+                    ch.basic_publish(exchange="", routing_key="03-food-B", body=food_B)
+                    logger.info(f" [x] Food B Temperature is {food_B}")
 
     except pika.exceptions.AMQPConnectionError as e:
         logger.info(f"Error: Connection to RabbitMQ server failed: {e}")
         sys.exit(1)
     finally:
+       
+
         # close the connection to the server
         conn.close()
 

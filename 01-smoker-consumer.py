@@ -15,26 +15,32 @@ from util_logger import setup_logger
 logger, logname = setup_logger(__file__)
 
 from collections import deque
-smoker_deque = deque(maxlen=5) #the 5 most recent readings
+smoker_deque = deque(maxlen=5) # the 5 most recent readings
 
 # define a callback function to be called when the data is received.
 def smoker_callback(ch, method, properties, body):
+    message = body.decode()
+    
     # decode the binary message body to a string
-    logger.info(f" [x] Received {body.decode()}")
-    #read a temperature every 30 seconds.
-    time.sleep(30)
+    logger.info(f" [x] Received: {message}")
+
+    #split the message by comma so only the temp is read
+    parts = message.split(',')
+    temp = float(parts[1].strip())
+
+    
+    smoker_deque.append(temp) #append the new temperature to the deque
+    logger.info(temp)
     #subtracting current temp from previously read temp to alert when difference of 15 degrees is reached.
-    smoker_deque.append()
     if len(smoker_deque) < 2:
         return
     temp_diff = smoker_deque[-1] - smoker_deque[0]
     if temp_diff < -15:
-        logger.info(f"Smoker Alert! The temperature has decreased by 15 degrees F.
-                     Current temperauture: {smoker_deque[-1]}F")
+        logger.info(f"Smoker Alert! The temperature has decreased by 15 degrees F. Current temperauture: {smoker_deque[-1]}F")
     # when done with task, tell the user
     logger.info(" [x] Done.")
     # acknowledge the message was received and processed 
-    # (now it can be deleted from the queue)
+    # (now it can be deleted from the queue)   #delete each queue before declaring a new one
     ch.basic_ack(delivery_tag=method.delivery_tag)
 
 
@@ -49,23 +55,22 @@ def main(hn: str = "localhost", qn: str ="01-smoker"):
 
     # except, if there's an error, do this
     except Exception as e:
-        logger.info()
         logger.info("ERROR: connection to RabbitMQ server failed.")
         logger.info(f"Verify the server is running on host={hn}.")
         logger.info(f"The error says: {e}")
-        logger.info()
         sys.exit(1)
 
     try:
         # use the connection to create a communication channel
         ch = connection.channel()
-        #delete each queue before declaring a new one
-        ch.queue_delete(queue="01-smoker")
+        
         # use the channel to declare a durable queue
         # a durable queue will survive a RabbitMQ server restart
         # and help ensure messages are processed in order
         # messages will not be deleted until the consumer acknowledges
         ch.queue_declare(queue="01-smoker", durable=True)
+
+     
 
         # The QoS level controls the # of messages
         # that can be in-flight (unacknowledged by the consumer)
@@ -87,15 +92,13 @@ def main(hn: str = "localhost", qn: str ="01-smoker"):
 
         # start consuming messages via the communication channel
         ch.start_consuming()
-
+        
     # except, in the event of an error OR user stops the process, do this
     except Exception as e:
-        logger.info()
         logger.info("ERROR: something went wrong.")
         logger.info(f"The error says: {e}")
         sys.exit(1)
     except KeyboardInterrupt:
-        logger.info()
         logger.info(" User interrupted continuous listening process.")
         sys.exit(0)
     finally:
@@ -110,3 +113,4 @@ def main(hn: str = "localhost", qn: str ="01-smoker"):
 if __name__ == "__main__":
     # call the main function with the information needed
     main("localhost", "01-smoker")
+    #time.sleep(30)#reading every 30 seconds

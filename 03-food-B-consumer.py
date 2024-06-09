@@ -18,10 +18,22 @@ foodB_deque = deque(maxlen=20) #limited to the 20 most recent readings
 
 # define a callback function to be called when a message is received
 def foodB_callback(ch, method, properties, body):
-    """ Define behavior on getting a message."""
+    message = body.decode()
+
     # decode the binary message body to a string
     logger.info(f" [x] Received {body.decode()}")
-    time.sleep(30)
+
+    #split the message by comma so only the temp is read
+    parts = message.split(',')
+    temp = float(parts[1].strip())
+
+    foodB_deque.append(temp)
+
+    if len(foodB_deque) < 2:
+        return
+    temp_diff = foodB_deque[-1] - foodB_deque[0]
+    if temp_diff < 1:
+        logger.info(f"Alert! Food B temperature has stalled. Current temp: {temp}")
     # when done with task, tell the user
     logger.info(" [x] Done.")
     # acknowledge the message was received and processed 
@@ -51,8 +63,7 @@ def main(hn: str = "localhost", qn: str ="03-food-B"):
     try:
         # use the connection to create a communication channel
         ch = connection.channel()
-        # delete each queue before declaring a new one
-        ch.queue_delete(queue="03-food-B")
+
         # use the channel to declare a durable queue
         # a durable queue will survive a RabbitMQ server restart
         # and help ensure messages are processed in order

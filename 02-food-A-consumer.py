@@ -17,12 +17,26 @@ logger, logname = setup_logger(__file__)
 
 from collections import deque
 foodA_deque = deque(maxlen=20)#limited to the 20 most recent readings
+
 # define a callback function to be called when a message is received
 def foodA_callback(ch, method, properties, body):
     """ Define behavior on getting a message."""
+    message = body.decode()
     # decode the binary message body to a string
-    logger.info(f" [x] Received {body.decode()}")
-    time.sleep(30)
+    logger.info(f" [x] Received {message}")
+    
+    #split the message by comma so only the temp is read
+    parts = message.split(',')
+    temp = float(parts[1].strip())
+    
+    foodA_deque.append(temp)
+    logger.info(temp)
+
+    if len(foodA_deque) < 2:
+        return
+    temp_diff = foodA_deque[-1] - foodA_deque[0]
+    if temp_diff < 1:
+        logger.info(f"Alert! Food temperature stall! {temp}")
     # when done with task, tell the user
     logger.info(" [x] Done.")
     # acknowledge the message was received and processed 
@@ -53,7 +67,7 @@ def main(hn: str = "localhost", qn: str ="02-food-A"):
         # use the connection to create a communication channel
         ch = connection.channel()
         #delete each queue before declaring a new one
-        ch.queue_delete(queue="02-food-A")
+        #ch.queue_delete(queue="02-food-A")
 
         # use the channel to declare a durable queue
         # a durable queue will survive a RabbitMQ server restart
@@ -81,6 +95,8 @@ def main(hn: str = "localhost", qn: str ="02-food-A"):
 
         # start consuming messages via the communication channel
         ch.start_consuming()
+        # delete the queue after processing
+        ch.queue_delete(queue="02-food-A")
 
     # except, in the event of an error OR user stops the process, do this
     except Exception as e:
