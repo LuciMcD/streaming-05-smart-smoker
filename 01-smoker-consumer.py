@@ -34,7 +34,7 @@ def smoker_callback(ch, method, properties, body):
     #subtracting current temp from previously read temp to alert when difference of 15 degrees is reached.
     if len(smoker_deque) == 5:
     
-        temp_diff = temp[-1] - temp[0]
+        temp_diff = smoker_deque[-1][0] - smoker_deque[0][0]
         if temp_diff < -15:
             logger.info(f"Smoker Alert! The temperature has decreased by 15 degrees F. Current temperauture: {smoker_deque[-1]}F")
     # when done with task, tell the user

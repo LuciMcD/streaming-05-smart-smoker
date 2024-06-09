@@ -1,11 +1,47 @@
-2024-06-08 21:43:40,154.02-food-A-consumer.INFO ==================================================
-2024-06-08 21:43:40,154.02-food-A-consumer.INFO Today is 2024-06-08 at 09:43 PM
-2024-06-08 21:43:40,154.02-food-A-consumer.INFO Running on: nt Windows 10
-2024-06-08 21:43:40,154.02-food-A-consumer.INFO Python version:  3.11.4
-2024-06-08 21:43:40,154.02-food-A-consumer.INFO Python path: C:\Users\lucim\Streaming Data\streaming-05-smart-smoker\.venv
-2024-06-08 21:43:40,155.02-food-A-consumer.INFO Working dir: C:\Users\lucim\Streaming Data\streaming-05-smart-smoker
-2024-06-08 21:43:40,155.02-food-A-consumer.INFO ==================================================
-2024-06-08 21:43:40,169.02-food-A-consumer.INFO  [*] Ready to read food temperatures. To exit press CTRL+C
-2024-06-08 21:52:05,373.02-food-A-consumer.INFO 
+2024-06-09 10:32:50,142.02-food-A-consumer.INFO ==================================================
+2024-06-09 10:32:50,143.02-food-A-consumer.INFO Today is 2024-06-09 at 10:32 AM
+2024-06-09 10:32:50,143.02-food-A-consumer.INFO Running on: nt Windows 10
+2024-06-09 10:32:50,143.02-food-A-consumer.INFO Python version:  3.11.4
+2024-06-09 10:32:50,143.02-food-A-consumer.INFO Python path: C:\Users\lucim\Streaming Data\streaming-05-smart-smoker\.venv
+2024-06-09 10:32:50,143.02-food-A-consumer.INFO Working dir: C:\Users\lucim\Streaming Data\streaming-05-smart-smoker
+2024-06-09 10:32:50,143.02-food-A-consumer.INFO ==================================================
+2024-06-09 10:32:50,164.02-food-A-consumer.INFO  [*] Ready to read food temperatures. To exit press CTRL+C
+2024-06-09 11:00:38,609.02-food-A-consumer.INFO  [x] Received 05/22/21 13:46:35,38.7
+2024-06-09 11:00:38,620.02-food-A-consumer.INFO  [x] Current temp: 38.7
+2024-06-09 11:00:41,608.02-food-A-consumer.INFO  [x] Received 05/22/21 13:46:40,38.7
+2024-06-09 11:00:41,609.02-food-A-consumer.INFO  [x] Current temp: 38.7
+2024-06-09 11:00:53,629.02-food-A-consumer.INFO  [x] Received 05/22/21 13:47:35,37.1
+2024-06-09 11:00:53,633.02-food-A-consumer.INFO  [x] Current temp: 37.1
+2024-06-09 11:00:56,636.02-food-A-consumer.INFO  [x] Received 05/22/21 13:47:40,37.1
+2024-06-09 11:00:56,637.02-food-A-consumer.INFO  [x] Current temp: 37.1
+2024-06-09 11:01:08,649.02-food-A-consumer.INFO  [x] Received 05/22/21 13:48:35,36.9
+2024-06-09 11:01:08,651.02-food-A-consumer.INFO Alert! Food temperature stall! [36.9]
+2024-06-09 11:01:11,653.02-food-A-consumer.INFO  [x] Received 05/22/21 13:48:40,36.9
+2024-06-09 11:01:11,655.02-food-A-consumer.INFO  [x] Current temp: 36.9
+2024-06-09 11:01:23,666.02-food-A-consumer.INFO  [x] Received 05/22/21 13:49:35,36.9
+2024-06-09 11:01:23,667.02-food-A-consumer.INFO  [x] Current temp: 36.9
+2024-06-09 11:01:26,669.02-food-A-consumer.INFO  [x] Received 05/22/21 13:49:40,36.9
+2024-06-09 11:01:26,670.02-food-A-consumer.INFO  [x] Current temp: 36.9
+2024-06-09 11:01:38,685.02-food-A-consumer.INFO  [x] Received 05/22/21 13:50:35,37.2
+2024-06-09 11:01:38,685.02-food-A-consumer.INFO  [x] Current temp: 37.2
+2024-06-09 11:01:41,686.02-food-A-consumer.INFO  [x] Received 05/22/21 13:50:40,37.2
+2024-06-09 11:01:41,687.02-food-A-consumer.INFO  [x] Current temp: 37.2
+2024-06-09 11:01:53,695.02-food-A-consumer.INFO  [x] Received 05/22/21 13:51:35,37.5
+2024-06-09 11:01:53,697.02-food-A-consumer.INFO  [x] Current temp: 37.5
+2024-06-09 11:01:56,699.02-food-A-consumer.INFO  [x] Received 05/22/21 13:51:40,37.5
+2024-06-09 11:01:56,700.02-food-A-consumer.INFO  [x] Current temp: 37.5
+2024-06-09 11:02:08,709.02-food-A-consumer.INFO  [x] Received 05/22/21 13:52:35,37.9
+2024-06-09 11:02:08,710.02-food-A-consumer.INFO  [x] Current temp: 37.9
+2024-06-09 11:02:11,711.02-food-A-consumer.INFO  [x] Received 05/22/21 13:52:40,37.9
+2024-06-09 11:02:11,712.02-food-A-consumer.INFO  [x] Current temp: 37.9
+2024-06-09 11:02:23,719.02-food-A-consumer.INFO  [x] Received 05/22/21 13:53:35,38.4
+2024-06-09 11:02:23,720.02-food-A-consumer.INFO  [x] Current temp: 38.4
+2024-06-09 11:02:26,720.02-food-A-consumer.INFO  [x] Received 05/22/21 13:53:40,38.4
+2024-06-09 11:02:26,721.02-food-A-consumer.INFO  [x] Current temp: 38.4
+2024-06-09 11:02:38,737.02-food-A-consumer.INFO  [x] Received 05/22/21 13:54:35,39.1
+2024-06-09 11:02:38,737.02-food-A-consumer.INFO  [x] Current temp: 39.1
+2024-06-09 11:02:41,741.02-food-A-consumer.INFO  [x] Received 05/22/21 13:54:40,39.1
+2024-06-09 11:02:41,741.02-food-A-consumer.INFO  [x] Current temp: 39.1
+2024-06-09 11:02:47,606.02-food-A-consumer.INFO 
 Closing connection. Goodbye.
 

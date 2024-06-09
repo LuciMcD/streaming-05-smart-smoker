@@ -1,332 +1,396 @@
-2024-06-08 22:18:26,631.01-smoker-consumer.INFO ==================================================
-2024-06-08 22:18:26,632.01-smoker-consumer.INFO Today is 2024-06-08 at 10:18 PM
-2024-06-08 22:18:26,632.01-smoker-consumer.INFO Running on: nt Windows 10
-2024-06-08 22:18:26,632.01-smoker-consumer.INFO Python version:  3.11.4
-2024-06-08 22:18:26,632.01-smoker-consumer.INFO Python path: C:\Users\lucim\Streaming Data\streaming-05-smart-smoker\.venv
-2024-06-08 22:18:26,633.01-smoker-consumer.INFO Working dir: C:\Users\lucim\Streaming Data\streaming-05-smart-smoker
-2024-06-08 22:18:26,633.01-smoker-consumer.INFO ==================================================
-2024-06-08 22:18:26,689.01-smoker-consumer.INFO  [*] Ready to read temperatures. To exit press CTRL+C
-2024-06-08 22:18:36,062.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:27:15,108.2
-2024-06-08 22:18:36,063.01-smoker-consumer.INFO  [x] Received: 108.2
-2024-06-08 22:19:06,064.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:28:10,111.4
-2024-06-08 22:19:06,065.01-smoker-consumer.INFO  [x] Received: 111.4
-2024-06-08 22:19:36,067.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:28:15,111.4
-2024-06-08 22:19:36,068.01-smoker-consumer.INFO  [x] Received: 111.4
-2024-06-08 22:20:06,069.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:29:10,114.2
-2024-06-08 22:20:06,069.01-smoker-consumer.INFO  [x] Received: 114.2
-2024-06-08 22:20:36,072.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:29:15,114.2
-2024-06-08 22:20:36,073.01-smoker-consumer.INFO  [x] Received: 114.2
-2024-06-08 22:21:06,078.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:30:10,116.9
-2024-06-08 22:21:06,079.01-smoker-consumer.INFO  [x] Received: 116.9
-2024-06-08 22:21:36,086.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:30:15,116.9
-2024-06-08 22:21:36,086.01-smoker-consumer.INFO  [x] Received: 116.9
-2024-06-08 22:22:06,087.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:31:10,119.4
-2024-06-08 22:22:06,088.01-smoker-consumer.INFO  [x] Received: 119.4
-2024-06-08 22:22:36,090.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:31:15,119.4
-2024-06-08 22:22:36,090.01-smoker-consumer.INFO  [x] Received: 119.4
-2024-06-08 22:23:06,093.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:32:10,120.1
-2024-06-08 22:23:06,094.01-smoker-consumer.INFO  [x] Received: 120.1
-2024-06-08 22:23:36,097.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:32:15,120.1
-2024-06-08 22:23:36,098.01-smoker-consumer.INFO  [x] Received: 120.1
-2024-06-08 22:24:06,101.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:33:10,106.2
-2024-06-08 22:24:06,102.01-smoker-consumer.INFO  [x] Received: 106.2
-2024-06-08 22:24:36,102.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:33:15,106.2
-2024-06-08 22:24:36,103.01-smoker-consumer.INFO  [x] Received: 106.2
-2024-06-08 22:25:06,107.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:34:10,103.5
-2024-06-08 22:25:06,108.01-smoker-consumer.INFO  [x] Received: 103.5
-2024-06-08 22:25:36,110.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:34:15,103.5
-2024-06-08 22:25:36,111.01-smoker-consumer.INFO  [x] Received: 103.5
-2024-06-08 22:26:06,114.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:35:10,105.3
-2024-06-08 22:26:06,115.01-smoker-consumer.INFO  [x] Received: 105.3
-2024-06-08 22:26:36,116.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:35:15,105.3
-2024-06-08 22:26:36,117.01-smoker-consumer.INFO  [x] Received: 105.3
-2024-06-08 22:27:06,118.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:36:10,106.9
-2024-06-08 22:27:06,120.01-smoker-consumer.INFO  [x] Received: 106.9
-2024-06-08 22:27:36,122.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:36:15,106.9
-2024-06-08 22:27:36,124.01-smoker-consumer.INFO  [x] Received: 106.9
-2024-06-08 22:28:06,127.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:37:10,111.9
-2024-06-08 22:28:06,127.01-smoker-consumer.INFO  [x] Received: 111.9
-2024-06-08 22:28:36,130.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:37:15,111.9
-2024-06-08 22:28:36,131.01-smoker-consumer.INFO  [x] Received: 111.9
-2024-06-08 22:29:06,131.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:38:10,114.2
-2024-06-08 22:29:06,133.01-smoker-consumer.INFO  [x] Received: 114.2
-2024-06-08 22:29:36,133.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:38:15,114.2
-2024-06-08 22:29:36,133.01-smoker-consumer.INFO  [x] Received: 114.2
-2024-06-08 22:30:06,136.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:39:10,115.5
-2024-06-08 22:30:06,137.01-smoker-consumer.INFO  [x] Received: 115.5
-2024-06-08 22:30:36,139.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:39:15,115.5
-2024-06-08 22:30:36,140.01-smoker-consumer.INFO  [x] Received: 115.5
-2024-06-08 22:31:06,140.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:40:10,112.6
-2024-06-08 22:31:06,141.01-smoker-consumer.INFO  [x] Received: 112.6
-2024-06-08 22:31:36,143.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:40:15,112.6
-2024-06-08 22:31:36,144.01-smoker-consumer.INFO  [x] Received: 112.6
-2024-06-08 22:32:06,145.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:41:10,118.8
-2024-06-08 22:32:06,145.01-smoker-consumer.INFO  [x] Received: 118.8
-2024-06-08 22:32:36,147.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:41:15,118.8
-2024-06-08 22:32:36,148.01-smoker-consumer.INFO  [x] Received: 118.8
-2024-06-08 22:33:06,151.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:42:10,113.2
-2024-06-08 22:33:06,152.01-smoker-consumer.INFO  [x] Received: 113.2
-2024-06-08 22:33:36,157.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:42:15,113.2
-2024-06-08 22:33:36,158.01-smoker-consumer.INFO  [x] Received: 113.2
-2024-06-08 22:34:06,159.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:43:10,126.7
-2024-06-08 22:34:06,160.01-smoker-consumer.INFO  [x] Received: 126.7
-2024-06-08 22:34:36,161.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:43:15,126.7
-2024-06-08 22:34:36,161.01-smoker-consumer.INFO  [x] Received: 126.7
-2024-06-08 22:35:06,163.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:44:10,130.0
-2024-06-08 22:35:06,163.01-smoker-consumer.INFO  [x] Received: 130.0
-2024-06-08 22:35:36,166.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:44:15,130.0
-2024-06-08 22:35:36,167.01-smoker-consumer.INFO  [x] Received: 130.0
-2024-06-08 22:36:06,171.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:45:10,130.0
-2024-06-08 22:36:06,171.01-smoker-consumer.INFO  [x] Received: 130.0
-2024-06-08 22:36:36,174.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:45:15,130.0
-2024-06-08 22:36:36,174.01-smoker-consumer.INFO  [x] Received: 130.0
-2024-06-08 22:37:06,175.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:46:10,137.3
-2024-06-08 22:37:06,176.01-smoker-consumer.INFO  [x] Received: 137.3
-2024-06-08 22:37:36,177.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:46:15,137.3
-2024-06-08 22:37:36,178.01-smoker-consumer.INFO  [x] Received: 137.3
-2024-06-08 22:38:06,182.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:47:10,139.5
-2024-06-08 22:38:06,182.01-smoker-consumer.INFO  [x] Received: 139.5
-2024-06-08 22:38:36,182.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:47:15,139.5
-2024-06-08 22:38:36,183.01-smoker-consumer.INFO  [x] Received: 139.5
-2024-06-08 22:39:06,186.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:48:10,141.8
-2024-06-08 22:39:06,187.01-smoker-consumer.INFO  [x] Received: 141.8
-2024-06-08 22:39:36,188.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:48:15,141.8
-2024-06-08 22:39:36,188.01-smoker-consumer.INFO  [x] Received: 141.8
-2024-06-08 22:40:06,194.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:49:10,143.6
-2024-06-08 22:40:06,194.01-smoker-consumer.INFO  [x] Received: 143.6
-2024-06-08 22:40:36,195.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:49:15,143.6
-2024-06-08 22:40:36,197.01-smoker-consumer.INFO  [x] Received: 143.6
-2024-06-08 22:41:06,201.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:50:10,145.0
-2024-06-08 22:41:06,201.01-smoker-consumer.INFO  [x] Received: 145.0
-2024-06-08 22:41:36,202.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:50:15,145.0
-2024-06-08 22:41:36,203.01-smoker-consumer.INFO  [x] Received: 145.0
-2024-06-08 22:42:06,205.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:51:10,146.2
-2024-06-08 22:42:06,206.01-smoker-consumer.INFO  [x] Received: 146.2
-2024-06-08 22:42:36,209.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:51:15,146.2
-2024-06-08 22:42:36,210.01-smoker-consumer.INFO  [x] Received: 146.2
-2024-06-08 22:43:06,215.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:52:10,147.5
-2024-06-08 22:43:06,216.01-smoker-consumer.INFO  [x] Received: 147.5
-2024-06-08 22:43:36,217.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:52:15,147.5
-2024-06-08 22:43:36,218.01-smoker-consumer.INFO  [x] Received: 147.5
-2024-06-08 22:44:06,220.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:53:10,148.7
-2024-06-08 22:44:06,221.01-smoker-consumer.INFO  [x] Received: 148.7
-2024-06-08 22:44:36,222.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:53:15,148.7
-2024-06-08 22:44:36,223.01-smoker-consumer.INFO  [x] Received: 148.7
-2024-06-08 22:45:06,225.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:54:10,149.9
-2024-06-08 22:45:06,225.01-smoker-consumer.INFO  [x] Received: 149.9
-2024-06-08 22:45:36,231.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:54:15,149.9
-2024-06-08 22:45:36,232.01-smoker-consumer.INFO  [x] Received: 149.9
-2024-06-08 22:46:06,232.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:55:05,151.1
-2024-06-08 22:46:06,234.01-smoker-consumer.INFO  [x] Received: 151.1
-2024-06-08 22:46:36,238.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:55:10,151.2
-2024-06-08 22:46:36,239.01-smoker-consumer.INFO  [x] Received: 151.2
-2024-06-08 22:47:06,249.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:55:15,151.2
-2024-06-08 22:47:06,250.01-smoker-consumer.INFO  [x] Received: 151.2
-2024-06-08 22:47:36,252.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:56:10,152.4
-2024-06-08 22:47:36,253.01-smoker-consumer.INFO  [x] Received: 152.4
-2024-06-08 22:48:06,258.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:56:15,152.4
-2024-06-08 22:48:06,259.01-smoker-consumer.INFO  [x] Received: 152.4
-2024-06-08 22:48:36,261.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:57:10,153.4
-2024-06-08 22:48:36,262.01-smoker-consumer.INFO  [x] Received: 153.4
-2024-06-08 22:49:06,270.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:57:15,153.4
-2024-06-08 22:49:06,270.01-smoker-consumer.INFO  [x] Received: 153.4
-2024-06-08 22:49:36,270.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:58:10,154.5
-2024-06-08 22:49:36,271.01-smoker-consumer.INFO  [x] Received: 154.5
-2024-06-08 22:50:06,275.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:58:15,154.5
-2024-06-08 22:50:06,276.01-smoker-consumer.INFO  [x] Received: 154.5
-2024-06-08 22:50:36,279.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:59:10,155.6
-2024-06-08 22:50:36,281.01-smoker-consumer.INFO  [x] Received: 155.6
-2024-06-08 22:51:06,286.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:59:15,155.6
-2024-06-08 22:51:06,287.01-smoker-consumer.INFO  [x] Received: 155.6
-2024-06-08 22:51:36,289.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:00:10,156.5
-2024-06-08 22:51:36,291.01-smoker-consumer.INFO  [x] Received: 156.5
-2024-06-08 22:52:06,293.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:00:15,156.5
-2024-06-08 22:52:06,294.01-smoker-consumer.INFO  [x] Received: 156.5
-2024-06-08 22:52:36,296.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:01:10,157.8
-2024-06-08 22:52:36,296.01-smoker-consumer.INFO  [x] Received: 157.8
-2024-06-08 22:53:06,298.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:01:15,157.8
-2024-06-08 22:53:06,298.01-smoker-consumer.INFO  [x] Received: 157.8
-2024-06-08 22:53:36,301.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:02:10,158.8
-2024-06-08 22:53:36,303.01-smoker-consumer.INFO  [x] Received: 158.8
-2024-06-08 22:54:06,305.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:02:15,158.8
-2024-06-08 22:54:06,305.01-smoker-consumer.INFO  [x] Received: 158.8
-2024-06-08 22:54:36,307.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:03:10,159.9
-2024-06-08 22:54:36,308.01-smoker-consumer.INFO  [x] Received: 159.9
-2024-06-08 22:55:06,315.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:03:15,159.9
-2024-06-08 22:55:06,316.01-smoker-consumer.INFO  [x] Received: 159.9
-2024-06-08 22:55:36,317.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:04:10,160.7
-2024-06-08 22:55:36,318.01-smoker-consumer.INFO  [x] Received: 160.7
-2024-06-08 22:56:06,320.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:04:15,160.7
-2024-06-08 22:56:06,320.01-smoker-consumer.INFO  [x] Received: 160.7
-2024-06-08 22:56:36,321.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:05:10,161.9
-2024-06-08 22:56:36,322.01-smoker-consumer.INFO  [x] Received: 161.9
-2024-06-08 22:57:06,323.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:05:15,161.9
-2024-06-08 22:57:06,324.01-smoker-consumer.INFO  [x] Received: 161.9
-2024-06-08 22:57:36,325.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:06:10,163.1
-2024-06-08 22:57:36,325.01-smoker-consumer.INFO  [x] Received: 163.1
-2024-06-08 22:58:06,327.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:06:15,163.1
-2024-06-08 22:58:06,327.01-smoker-consumer.INFO  [x] Received: 163.1
-2024-06-08 22:58:36,332.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:07:10,164.3
-2024-06-08 22:58:36,333.01-smoker-consumer.INFO  [x] Received: 164.3
-2024-06-08 22:59:06,334.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:07:15,164.3
-2024-06-08 22:59:06,335.01-smoker-consumer.INFO  [x] Received: 164.3
-2024-06-08 22:59:36,338.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:08:10,165.6
-2024-06-08 22:59:36,338.01-smoker-consumer.INFO  [x] Received: 165.6
-2024-06-08 23:00:06,340.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:08:15,165.6
-2024-06-08 23:00:06,341.01-smoker-consumer.INFO  [x] Received: 165.6
-2024-06-08 23:00:36,343.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:09:10,166.7
-2024-06-08 23:00:36,344.01-smoker-consumer.INFO  [x] Received: 166.7
-2024-06-08 23:01:06,349.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:09:15,166.7
-2024-06-08 23:01:06,350.01-smoker-consumer.INFO  [x] Received: 166.7
-2024-06-08 23:01:36,354.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:10:10,167.8
-2024-06-08 23:01:36,354.01-smoker-consumer.INFO  [x] Received: 167.8
-2024-06-08 23:02:06,360.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:10:15,167.8
-2024-06-08 23:02:06,361.01-smoker-consumer.INFO  [x] Received: 167.8
-2024-06-08 23:02:36,366.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:11:10,168.8
-2024-06-08 23:02:36,367.01-smoker-consumer.INFO  [x] Received: 168.8
-2024-06-08 23:03:06,369.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:11:15,168.8
-2024-06-08 23:03:06,370.01-smoker-consumer.INFO  [x] Received: 168.8
-2024-06-08 23:03:36,372.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:12:10,170.2
-2024-06-08 23:03:36,372.01-smoker-consumer.INFO  [x] Received: 170.2
-2024-06-08 23:04:06,378.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:12:15,170.2
-2024-06-08 23:04:06,379.01-smoker-consumer.INFO  [x] Received: 170.2
-2024-06-08 23:04:36,380.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:13:10,171.7
-2024-06-08 23:04:36,382.01-smoker-consumer.INFO  [x] Received: 171.7
-2024-06-08 23:05:06,385.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:13:15,171.7
-2024-06-08 23:05:06,386.01-smoker-consumer.INFO  [x] Received: 171.7
-2024-06-08 23:05:36,388.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:14:10,173.3
-2024-06-08 23:05:36,388.01-smoker-consumer.INFO  [x] Received: 173.3
-2024-06-08 23:06:06,391.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:14:15,173.3
-2024-06-08 23:06:06,392.01-smoker-consumer.INFO  [x] Received: 173.3
-2024-06-08 23:06:36,394.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:15:10,174.6
-2024-06-08 23:06:36,395.01-smoker-consumer.INFO  [x] Received: 174.6
-2024-06-08 23:07:06,401.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:15:15,174.6
-2024-06-08 23:07:06,402.01-smoker-consumer.INFO  [x] Received: 174.6
-2024-06-08 23:07:36,404.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:16:10,175.5
-2024-06-08 23:07:36,405.01-smoker-consumer.INFO  [x] Received: 175.5
-2024-06-08 23:08:06,409.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:16:15,175.5
-2024-06-08 23:08:06,410.01-smoker-consumer.INFO  [x] Received: 175.5
-2024-06-08 23:08:36,412.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:17:10,176.8
-2024-06-08 23:08:36,412.01-smoker-consumer.INFO  [x] Received: 176.8
-2024-06-08 23:09:06,413.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:17:15,176.8
-2024-06-08 23:09:06,414.01-smoker-consumer.INFO  [x] Received: 176.8
-2024-06-08 23:09:36,418.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:18:10,177.8
-2024-06-08 23:09:36,419.01-smoker-consumer.INFO  [x] Received: 177.8
-2024-06-08 23:10:06,419.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:18:15,177.8
-2024-06-08 23:10:06,421.01-smoker-consumer.INFO  [x] Received: 177.8
-2024-06-08 23:10:36,425.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:19:10,178.9
-2024-06-08 23:10:36,426.01-smoker-consumer.INFO  [x] Received: 178.9
-2024-06-08 23:11:06,430.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:19:15,178.9
-2024-06-08 23:11:06,431.01-smoker-consumer.INFO  [x] Received: 178.9
-2024-06-08 23:11:36,437.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:20:10,180.3
-2024-06-08 23:11:36,438.01-smoker-consumer.INFO  [x] Received: 180.3
-2024-06-08 23:12:06,444.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:20:15,180.3
-2024-06-08 23:12:06,445.01-smoker-consumer.INFO  [x] Received: 180.3
-2024-06-08 23:12:36,443.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:21:10,181.4
-2024-06-08 23:12:36,444.01-smoker-consumer.INFO  [x] Received: 181.4
-2024-06-08 23:13:06,450.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:21:15,181.4
-2024-06-08 23:13:06,451.01-smoker-consumer.INFO  [x] Received: 181.4
-2024-06-08 23:13:36,453.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:22:10,182.6
-2024-06-08 23:13:36,454.01-smoker-consumer.INFO  [x] Received: 182.6
-2024-06-08 23:14:06,459.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:22:15,182.6
-2024-06-08 23:14:06,460.01-smoker-consumer.INFO  [x] Received: 182.6
-2024-06-08 23:14:36,464.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:23:10,183.9
-2024-06-08 23:14:36,465.01-smoker-consumer.INFO  [x] Received: 183.9
-2024-06-08 23:15:06,470.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:23:15,183.9
-2024-06-08 23:15:06,471.01-smoker-consumer.INFO  [x] Received: 183.9
-2024-06-08 23:15:36,475.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:24:10,184.8
-2024-06-08 23:15:36,476.01-smoker-consumer.INFO  [x] Received: 184.8
-2024-06-08 23:16:06,481.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:24:15,184.8
-2024-06-08 23:16:06,484.01-smoker-consumer.INFO  [x] Received: 184.8
-2024-06-08 23:16:36,486.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:25:10,186.0
-2024-06-08 23:16:36,487.01-smoker-consumer.INFO  [x] Received: 186.0
-2024-06-08 23:17:06,489.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:25:15,186.0
-2024-06-08 23:17:06,489.01-smoker-consumer.INFO  [x] Received: 186.0
-2024-06-08 23:17:36,492.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:26:10,187.1
-2024-06-08 23:17:36,493.01-smoker-consumer.INFO  [x] Received: 187.1
-2024-06-08 23:18:06,497.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:26:15,187.1
-2024-06-08 23:18:06,498.01-smoker-consumer.INFO  [x] Received: 187.1
-2024-06-08 23:18:36,499.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:27:10,211.9
-2024-06-08 23:18:36,500.01-smoker-consumer.INFO  [x] Received: 211.9
-2024-06-08 23:19:06,505.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:27:15,211.9
-2024-06-08 23:19:06,506.01-smoker-consumer.INFO  [x] Received: 211.9
-2024-06-08 23:19:36,513.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:28:10,215.3
-2024-06-08 23:19:36,514.01-smoker-consumer.INFO  [x] Received: 215.3
-2024-06-08 23:20:06,517.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:28:15,215.3
-2024-06-08 23:20:06,518.01-smoker-consumer.INFO  [x] Received: 215.3
-2024-06-08 23:20:36,523.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:29:10,217.0
-2024-06-08 23:20:36,524.01-smoker-consumer.INFO  [x] Received: 217.0
-2024-06-08 23:21:06,530.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:29:15,217.0
-2024-06-08 23:21:06,531.01-smoker-consumer.INFO  [x] Received: 217.0
-2024-06-08 23:21:36,532.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:30:10,218.6
-2024-06-08 23:21:36,533.01-smoker-consumer.INFO  [x] Received: 218.6
-2024-06-08 23:22:06,536.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:30:15,218.6
-2024-06-08 23:22:06,537.01-smoker-consumer.INFO  [x] Received: 218.6
-2024-06-08 23:22:36,542.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:31:10,218.5
-2024-06-08 23:22:36,543.01-smoker-consumer.INFO  [x] Received: 218.5
-2024-06-08 23:23:06,543.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:31:15,218.5
-2024-06-08 23:23:06,544.01-smoker-consumer.INFO  [x] Received: 218.5
-2024-06-08 23:23:36,550.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:32:10,219.4
-2024-06-08 23:23:36,551.01-smoker-consumer.INFO  [x] Received: 219.4
-2024-06-08 23:24:06,553.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:32:15,219.4
-2024-06-08 23:24:06,554.01-smoker-consumer.INFO  [x] Received: 219.4
-2024-06-08 23:24:36,557.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:33:10,220.5
-2024-06-08 23:24:36,558.01-smoker-consumer.INFO  [x] Received: 220.5
-2024-06-08 23:25:06,562.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:33:15,220.5
-2024-06-08 23:25:06,563.01-smoker-consumer.INFO  [x] Received: 220.5
-2024-06-08 23:25:36,566.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:34:10,220.7
-2024-06-08 23:25:36,567.01-smoker-consumer.INFO  [x] Received: 220.7
-2024-06-08 23:26:06,572.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:34:15,220.7
-2024-06-08 23:26:06,573.01-smoker-consumer.INFO  [x] Received: 220.7
-2024-06-08 23:26:36,574.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:35:10,222.5
-2024-06-08 23:26:36,575.01-smoker-consumer.INFO  [x] Received: 222.5
-2024-06-08 23:27:06,578.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:35:15,222.5
-2024-06-08 23:27:06,579.01-smoker-consumer.INFO  [x] Received: 222.5
-2024-06-08 23:27:36,582.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:36:10,223.0
-2024-06-08 23:27:36,582.01-smoker-consumer.INFO  [x] Received: 223.0
-2024-06-08 23:28:06,585.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:36:15,223.0
-2024-06-08 23:28:06,586.01-smoker-consumer.INFO  [x] Received: 223.0
-2024-06-08 23:28:36,590.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:37:10,224.7
-2024-06-08 23:28:36,591.01-smoker-consumer.INFO  [x] Received: 224.7
-2024-06-08 23:29:06,595.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:37:15,224.7
-2024-06-08 23:29:06,596.01-smoker-consumer.INFO  [x] Received: 224.7
-2024-06-08 23:29:36,600.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:38:10,224.2
-2024-06-08 23:29:36,601.01-smoker-consumer.INFO  [x] Received: 224.2
-2024-06-08 23:30:06,606.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:38:15,224.2
-2024-06-08 23:30:06,607.01-smoker-consumer.INFO  [x] Received: 224.2
-2024-06-08 23:30:36,610.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:39:10,223.6
-2024-06-08 23:30:36,611.01-smoker-consumer.INFO  [x] Received: 223.6
-2024-06-08 23:31:06,613.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:39:15,223.6
-2024-06-08 23:31:06,614.01-smoker-consumer.INFO  [x] Received: 223.6
-2024-06-08 23:31:36,619.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:40:10,224.6
-2024-06-08 23:31:36,620.01-smoker-consumer.INFO  [x] Received: 224.6
-2024-06-08 23:32:06,626.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:40:15,224.6
-2024-06-08 23:32:06,627.01-smoker-consumer.INFO  [x] Received: 224.6
-2024-06-08 23:32:36,627.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:41:10,224.3
-2024-06-08 23:32:36,628.01-smoker-consumer.INFO  [x] Received: 224.3
-2024-06-08 23:33:06,634.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:41:15,224.3
-2024-06-08 23:33:06,635.01-smoker-consumer.INFO  [x] Received: 224.3
-2024-06-08 23:33:36,639.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:42:10,226.6
-2024-06-08 23:33:36,640.01-smoker-consumer.INFO  [x] Received: 226.6
-2024-06-08 23:34:06,643.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:42:15,226.6
-2024-06-08 23:34:06,645.01-smoker-consumer.INFO  [x] Received: 226.6
-2024-06-08 23:34:36,647.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:43:10,229.0
-2024-06-08 23:34:36,647.01-smoker-consumer.INFO  [x] Received: 229.0
-2024-06-08 23:35:06,652.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:43:15,229.0
-2024-06-08 23:35:06,653.01-smoker-consumer.INFO  [x] Received: 229.0
-2024-06-08 23:35:36,656.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:44:10,232.8
-2024-06-08 23:35:36,656.01-smoker-consumer.INFO  [x] Received: 232.8
-2024-06-08 23:36:06,658.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:44:15,232.8
-2024-06-08 23:36:06,659.01-smoker-consumer.INFO  [x] Received: 232.8
-2024-06-08 23:36:36,663.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:45:10,237.9
-2024-06-08 23:36:36,664.01-smoker-consumer.INFO  [x] Received: 237.9
-2024-06-08 23:37:06,670.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:45:15,237.9
-2024-06-08 23:37:06,671.01-smoker-consumer.INFO  [x] Received: 237.9
-2024-06-08 23:37:36,674.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:46:10,200.2
-2024-06-08 23:37:36,675.01-smoker-consumer.INFO  [x] Received: 200.2
-2024-06-08 23:38:06,676.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:46:15,200.2
-2024-06-08 23:38:06,677.01-smoker-consumer.INFO  [x] Received: 200.2
-2024-06-08 23:38:37,402.01-smoker-consumer.INFO  User interrupted continuous listening process.
-2024-06-08 23:38:37,403.01-smoker-consumer.INFO 
+2024-06-09 10:49:48,509.01-smoker-consumer.INFO ==================================================
+2024-06-09 10:49:48,510.01-smoker-consumer.INFO Today is 2024-06-09 at 10:49 AM
+2024-06-09 10:49:48,510.01-smoker-consumer.INFO Running on: nt Windows 10
+2024-06-09 10:49:48,510.01-smoker-consumer.INFO Python version:  3.11.4
+2024-06-09 10:49:48,510.01-smoker-consumer.INFO Python path: C:\Users\lucim\Streaming Data\streaming-05-smart-smoker\.venv
+2024-06-09 10:49:48,510.01-smoker-consumer.INFO Working dir: C:\Users\lucim\Streaming Data\streaming-05-smart-smoker
+2024-06-09 10:49:48,510.01-smoker-consumer.INFO ==================================================
+2024-06-09 10:49:48,542.01-smoker-consumer.INFO  [*] Ready to read temperatures. To exit press CTRL+C
+2024-06-09 10:50:00,711.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:20:15,84.2
+2024-06-09 10:50:00,711.01-smoker-consumer.INFO  [x] Current temp: 84.2
+2024-06-09 10:50:03,714.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:20:20,84.2
+2024-06-09 10:50:03,714.01-smoker-consumer.INFO  [x] Current temp: 84.2
+2024-06-09 10:50:06,719.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:21:10,87.6
+2024-06-09 10:50:06,720.01-smoker-consumer.INFO  [x] Current temp: 87.6
+2024-06-09 10:50:09,719.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:21:15,87.6
+2024-06-09 10:50:09,719.01-smoker-consumer.INFO  [x] Current temp: 87.6
+2024-06-09 10:50:12,722.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:22:10,86.3
+2024-06-09 10:50:12,725.01-smoker-consumer.INFO  [x] Current temp: 86.3
+2024-06-09 10:50:15,727.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:22:15,86.3
+2024-06-09 10:50:15,729.01-smoker-consumer.INFO  [x] Current temp: 86.3
+2024-06-09 10:50:18,729.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:23:10,92.0
+2024-06-09 10:50:18,731.01-smoker-consumer.INFO  [x] Current temp: 92.0
+2024-06-09 10:50:21,735.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:23:15,92.0
+2024-06-09 10:50:21,736.01-smoker-consumer.INFO  [x] Current temp: 92.0
+2024-06-09 10:50:24,738.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:24:10,96.8
+2024-06-09 10:50:24,739.01-smoker-consumer.INFO  [x] Current temp: 96.8
+2024-06-09 10:50:27,739.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:24:15,96.8
+2024-06-09 10:50:27,740.01-smoker-consumer.INFO  [x] Current temp: 96.8
+2024-06-09 10:50:30,744.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:25:05,100.6
+2024-06-09 10:50:30,744.01-smoker-consumer.INFO  [x] Current temp: 100.6
+2024-06-09 10:50:33,747.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:25:10,100.9
+2024-06-09 10:50:33,748.01-smoker-consumer.INFO  [x] Current temp: 100.9
+2024-06-09 10:50:36,753.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:25:15,100.9
+2024-06-09 10:50:36,754.01-smoker-consumer.INFO  [x] Current temp: 100.9
+2024-06-09 10:50:39,754.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:26:10,104.8
+2024-06-09 10:50:39,755.01-smoker-consumer.INFO  [x] Current temp: 104.8
+2024-06-09 10:50:42,759.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:26:15,104.8
+2024-06-09 10:50:42,761.01-smoker-consumer.INFO  [x] Current temp: 104.8
+2024-06-09 10:50:45,766.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:27:10,108.2
+2024-06-09 10:50:45,767.01-smoker-consumer.INFO  [x] Current temp: 108.2
+2024-06-09 10:50:48,769.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:27:15,108.2
+2024-06-09 10:50:48,770.01-smoker-consumer.INFO  [x] Current temp: 108.2
+2024-06-09 10:50:51,773.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:28:10,111.4
+2024-06-09 10:50:51,774.01-smoker-consumer.INFO  [x] Current temp: 111.4
+2024-06-09 10:50:54,774.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:28:15,111.4
+2024-06-09 10:50:54,775.01-smoker-consumer.INFO  [x] Current temp: 111.4
+2024-06-09 10:50:57,778.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:29:10,114.2
+2024-06-09 10:50:57,779.01-smoker-consumer.INFO  [x] Current temp: 114.2
+2024-06-09 10:51:00,784.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:29:15,114.2
+2024-06-09 10:51:00,784.01-smoker-consumer.INFO  [x] Current temp: 114.2
+2024-06-09 10:51:03,787.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:30:10,116.9
+2024-06-09 10:51:03,788.01-smoker-consumer.INFO  [x] Current temp: 116.9
+2024-06-09 10:51:06,790.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:30:15,116.9
+2024-06-09 10:51:06,792.01-smoker-consumer.INFO  [x] Current temp: 116.9
+2024-06-09 10:51:09,794.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:31:10,119.4
+2024-06-09 10:51:09,795.01-smoker-consumer.INFO  [x] Current temp: 119.4
+2024-06-09 10:51:12,795.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:31:15,119.4
+2024-06-09 10:51:12,796.01-smoker-consumer.INFO  [x] Current temp: 119.4
+2024-06-09 10:51:15,799.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:32:10,120.1
+2024-06-09 10:51:15,800.01-smoker-consumer.INFO  [x] Current temp: 120.1
+2024-06-09 10:51:18,804.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:32:15,120.1
+2024-06-09 10:51:18,804.01-smoker-consumer.INFO  [x] Current temp: 120.1
+2024-06-09 10:51:21,807.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:33:10,106.2
+2024-06-09 10:51:21,807.01-smoker-consumer.INFO  [x] Current temp: 106.2
+2024-06-09 10:51:24,808.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:33:15,106.2
+2024-06-09 10:51:24,809.01-smoker-consumer.INFO  [x] Current temp: 106.2
+2024-06-09 10:51:27,811.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:34:10,103.5
+2024-06-09 10:51:27,812.01-smoker-consumer.INFO Smoker Alert! The temperature has decreased by 15 degrees F. Current temperauture: [103.5]F
+2024-06-09 10:51:30,813.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:34:15,103.5
+2024-06-09 10:51:30,813.01-smoker-consumer.INFO Smoker Alert! The temperature has decreased by 15 degrees F. Current temperauture: [103.5]F
+2024-06-09 10:51:33,817.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:35:10,105.3
+2024-06-09 10:51:33,818.01-smoker-consumer.INFO  [x] Current temp: 105.3
+2024-06-09 10:51:36,820.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:35:15,105.3
+2024-06-09 10:51:36,820.01-smoker-consumer.INFO  [x] Current temp: 105.3
+2024-06-09 10:51:39,824.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:36:10,106.9
+2024-06-09 10:51:39,826.01-smoker-consumer.INFO  [x] Current temp: 106.9
+2024-06-09 10:51:42,830.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:36:15,106.9
+2024-06-09 10:51:42,831.01-smoker-consumer.INFO  [x] Current temp: 106.9
+2024-06-09 10:51:45,829.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:37:10,111.9
+2024-06-09 10:51:45,830.01-smoker-consumer.INFO  [x] Current temp: 111.9
+2024-06-09 10:51:48,833.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:37:15,111.9
+2024-06-09 10:51:48,834.01-smoker-consumer.INFO  [x] Current temp: 111.9
+2024-06-09 10:51:51,834.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:38:10,114.2
+2024-06-09 10:51:51,835.01-smoker-consumer.INFO  [x] Current temp: 114.2
+2024-06-09 10:51:54,839.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:38:15,114.2
+2024-06-09 10:51:54,840.01-smoker-consumer.INFO  [x] Current temp: 114.2
+2024-06-09 10:51:57,841.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:39:10,115.5
+2024-06-09 10:51:57,842.01-smoker-consumer.INFO  [x] Current temp: 115.5
+2024-06-09 10:52:00,846.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:39:15,115.5
+2024-06-09 10:52:00,847.01-smoker-consumer.INFO  [x] Current temp: 115.5
+2024-06-09 10:52:03,845.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:40:10,112.6
+2024-06-09 10:52:03,847.01-smoker-consumer.INFO  [x] Current temp: 112.6
+2024-06-09 10:52:06,853.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:40:15,112.6
+2024-06-09 10:52:06,862.01-smoker-consumer.INFO  [x] Current temp: 112.6
+2024-06-09 10:52:09,864.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:41:10,118.8
+2024-06-09 10:52:09,865.01-smoker-consumer.INFO  [x] Current temp: 118.8
+2024-06-09 10:52:12,867.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:41:15,118.8
+2024-06-09 10:52:12,868.01-smoker-consumer.INFO  [x] Current temp: 118.8
+2024-06-09 10:52:15,870.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:42:10,113.2
+2024-06-09 10:52:15,871.01-smoker-consumer.INFO  [x] Current temp: 113.2
+2024-06-09 10:52:18,873.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:42:15,113.2
+2024-06-09 10:52:18,875.01-smoker-consumer.INFO  [x] Current temp: 113.2
+2024-06-09 10:52:21,881.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:43:10,126.7
+2024-06-09 10:52:21,883.01-smoker-consumer.INFO  [x] Current temp: 126.7
+2024-06-09 10:52:24,898.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:43:15,126.7
+2024-06-09 10:52:24,899.01-smoker-consumer.INFO  [x] Current temp: 126.7
+2024-06-09 10:52:27,899.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:44:10,130.0
+2024-06-09 10:52:27,899.01-smoker-consumer.INFO  [x] Current temp: 130.0
+2024-06-09 10:52:30,899.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:44:15,130.0
+2024-06-09 10:52:30,900.01-smoker-consumer.INFO  [x] Current temp: 130.0
+2024-06-09 10:52:33,902.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:45:10,130.0
+2024-06-09 10:52:33,904.01-smoker-consumer.INFO  [x] Current temp: 130.0
+2024-06-09 10:52:36,911.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:45:15,130.0
+2024-06-09 10:52:36,911.01-smoker-consumer.INFO  [x] Current temp: 130.0
+2024-06-09 10:52:39,912.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:46:10,137.3
+2024-06-09 10:52:39,913.01-smoker-consumer.INFO  [x] Current temp: 137.3
+2024-06-09 10:52:42,914.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:46:15,137.3
+2024-06-09 10:52:42,915.01-smoker-consumer.INFO  [x] Current temp: 137.3
+2024-06-09 10:52:45,919.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:47:10,139.5
+2024-06-09 10:52:45,920.01-smoker-consumer.INFO  [x] Current temp: 139.5
+2024-06-09 10:52:48,921.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:47:15,139.5
+2024-06-09 10:52:48,921.01-smoker-consumer.INFO  [x] Current temp: 139.5
+2024-06-09 10:52:51,923.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:48:10,141.8
+2024-06-09 10:52:51,924.01-smoker-consumer.INFO  [x] Current temp: 141.8
+2024-06-09 10:52:54,936.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:48:15,141.8
+2024-06-09 10:52:54,936.01-smoker-consumer.INFO  [x] Current temp: 141.8
+2024-06-09 10:52:57,939.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:49:10,143.6
+2024-06-09 10:52:57,940.01-smoker-consumer.INFO  [x] Current temp: 143.6
+2024-06-09 10:53:00,941.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:49:15,143.6
+2024-06-09 10:53:00,942.01-smoker-consumer.INFO  [x] Current temp: 143.6
+2024-06-09 10:53:03,945.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:50:10,145.0
+2024-06-09 10:53:03,946.01-smoker-consumer.INFO  [x] Current temp: 145.0
+2024-06-09 10:53:06,954.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:50:15,145.0
+2024-06-09 10:53:06,954.01-smoker-consumer.INFO  [x] Current temp: 145.0
+2024-06-09 10:53:09,955.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:51:10,146.2
+2024-06-09 10:53:09,956.01-smoker-consumer.INFO  [x] Current temp: 146.2
+2024-06-09 10:53:12,965.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:51:15,146.2
+2024-06-09 10:53:12,965.01-smoker-consumer.INFO  [x] Current temp: 146.2
+2024-06-09 10:53:15,965.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:52:10,147.5
+2024-06-09 10:53:15,965.01-smoker-consumer.INFO  [x] Current temp: 147.5
+2024-06-09 10:53:18,968.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:52:15,147.5
+2024-06-09 10:53:18,969.01-smoker-consumer.INFO  [x] Current temp: 147.5
+2024-06-09 10:53:21,984.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:53:10,148.7
+2024-06-09 10:53:21,984.01-smoker-consumer.INFO  [x] Current temp: 148.7
+2024-06-09 10:53:24,986.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:53:15,148.7
+2024-06-09 10:53:24,987.01-smoker-consumer.INFO  [x] Current temp: 148.7
+2024-06-09 10:53:27,988.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:54:10,149.9
+2024-06-09 10:53:27,989.01-smoker-consumer.INFO  [x] Current temp: 149.9
+2024-06-09 10:53:30,995.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:54:15,149.9
+2024-06-09 10:53:30,995.01-smoker-consumer.INFO  [x] Current temp: 149.9
+2024-06-09 10:53:33,997.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:55:05,151.1
+2024-06-09 10:53:33,998.01-smoker-consumer.INFO  [x] Current temp: 151.1
+2024-06-09 10:53:37,001.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:55:10,151.2
+2024-06-09 10:53:37,002.01-smoker-consumer.INFO  [x] Current temp: 151.2
+2024-06-09 10:53:40,005.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:55:15,151.2
+2024-06-09 10:53:40,005.01-smoker-consumer.INFO  [x] Current temp: 151.2
+2024-06-09 10:53:43,005.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:56:10,152.4
+2024-06-09 10:53:43,006.01-smoker-consumer.INFO  [x] Current temp: 152.4
+2024-06-09 10:53:46,008.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:56:15,152.4
+2024-06-09 10:53:46,008.01-smoker-consumer.INFO  [x] Current temp: 152.4
+2024-06-09 10:53:49,009.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:57:10,153.4
+2024-06-09 10:53:49,009.01-smoker-consumer.INFO  [x] Current temp: 153.4
+2024-06-09 10:53:52,011.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:57:15,153.4
+2024-06-09 10:53:52,012.01-smoker-consumer.INFO  [x] Current temp: 153.4
+2024-06-09 10:53:55,013.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:58:10,154.5
+2024-06-09 10:53:55,014.01-smoker-consumer.INFO  [x] Current temp: 154.5
+2024-06-09 10:53:58,015.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:58:15,154.5
+2024-06-09 10:53:58,016.01-smoker-consumer.INFO  [x] Current temp: 154.5
+2024-06-09 10:54:01,018.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:59:10,155.6
+2024-06-09 10:54:01,019.01-smoker-consumer.INFO  [x] Current temp: 155.6
+2024-06-09 10:54:04,019.01-smoker-consumer.INFO  [x] Received: 05/22/21 12:59:15,155.6
+2024-06-09 10:54:04,020.01-smoker-consumer.INFO  [x] Current temp: 155.6
+2024-06-09 10:54:07,021.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:00:10,156.5
+2024-06-09 10:54:07,022.01-smoker-consumer.INFO  [x] Current temp: 156.5
+2024-06-09 10:54:10,024.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:00:15,156.5
+2024-06-09 10:54:10,025.01-smoker-consumer.INFO  [x] Current temp: 156.5
+2024-06-09 10:54:13,029.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:01:10,157.8
+2024-06-09 10:54:13,030.01-smoker-consumer.INFO  [x] Current temp: 157.8
+2024-06-09 10:54:16,029.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:01:15,157.8
+2024-06-09 10:54:16,030.01-smoker-consumer.INFO  [x] Current temp: 157.8
+2024-06-09 10:54:19,033.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:02:10,158.8
+2024-06-09 10:54:19,034.01-smoker-consumer.INFO  [x] Current temp: 158.8
+2024-06-09 10:54:22,035.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:02:15,158.8
+2024-06-09 10:54:22,035.01-smoker-consumer.INFO  [x] Current temp: 158.8
+2024-06-09 10:54:25,037.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:03:10,159.9
+2024-06-09 10:54:25,038.01-smoker-consumer.INFO  [x] Current temp: 159.9
+2024-06-09 10:54:28,039.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:03:15,159.9
+2024-06-09 10:54:28,041.01-smoker-consumer.INFO  [x] Current temp: 159.9
+2024-06-09 10:54:31,044.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:04:10,160.7
+2024-06-09 10:54:31,045.01-smoker-consumer.INFO  [x] Current temp: 160.7
+2024-06-09 10:54:34,046.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:04:15,160.7
+2024-06-09 10:54:34,047.01-smoker-consumer.INFO  [x] Current temp: 160.7
+2024-06-09 10:54:37,049.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:05:10,161.9
+2024-06-09 10:54:37,050.01-smoker-consumer.INFO  [x] Current temp: 161.9
+2024-06-09 10:54:40,056.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:05:15,161.9
+2024-06-09 10:54:40,057.01-smoker-consumer.INFO  [x] Current temp: 161.9
+2024-06-09 10:54:43,058.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:06:10,163.1
+2024-06-09 10:54:43,059.01-smoker-consumer.INFO  [x] Current temp: 163.1
+2024-06-09 10:54:46,059.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:06:15,163.1
+2024-06-09 10:54:46,060.01-smoker-consumer.INFO  [x] Current temp: 163.1
+2024-06-09 10:54:49,066.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:07:10,164.3
+2024-06-09 10:54:49,068.01-smoker-consumer.INFO  [x] Current temp: 164.3
+2024-06-09 10:54:52,067.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:07:15,164.3
+2024-06-09 10:54:52,068.01-smoker-consumer.INFO  [x] Current temp: 164.3
+2024-06-09 10:54:55,070.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:08:10,165.6
+2024-06-09 10:54:55,071.01-smoker-consumer.INFO  [x] Current temp: 165.6
+2024-06-09 10:54:58,073.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:08:15,165.6
+2024-06-09 10:54:58,074.01-smoker-consumer.INFO  [x] Current temp: 165.6
+2024-06-09 10:55:01,077.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:09:10,166.7
+2024-06-09 10:55:01,078.01-smoker-consumer.INFO  [x] Current temp: 166.7
+2024-06-09 10:55:04,082.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:09:15,166.7
+2024-06-09 10:55:04,083.01-smoker-consumer.INFO  [x] Current temp: 166.7
+2024-06-09 10:55:07,085.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:10:10,167.8
+2024-06-09 10:55:07,086.01-smoker-consumer.INFO  [x] Current temp: 167.8
+2024-06-09 10:55:10,087.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:10:15,167.8
+2024-06-09 10:55:10,088.01-smoker-consumer.INFO  [x] Current temp: 167.8
+2024-06-09 10:55:13,091.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:11:10,168.8
+2024-06-09 10:55:13,092.01-smoker-consumer.INFO  [x] Current temp: 168.8
+2024-06-09 10:55:16,095.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:11:15,168.8
+2024-06-09 10:55:16,097.01-smoker-consumer.INFO  [x] Current temp: 168.8
+2024-06-09 10:55:19,098.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:12:10,170.2
+2024-06-09 10:55:19,099.01-smoker-consumer.INFO  [x] Current temp: 170.2
+2024-06-09 10:55:22,100.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:12:15,170.2
+2024-06-09 10:55:22,101.01-smoker-consumer.INFO  [x] Current temp: 170.2
+2024-06-09 10:55:25,105.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:13:10,171.7
+2024-06-09 10:55:25,106.01-smoker-consumer.INFO  [x] Current temp: 171.7
+2024-06-09 10:55:28,106.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:13:15,171.7
+2024-06-09 10:55:28,106.01-smoker-consumer.INFO  [x] Current temp: 171.7
+2024-06-09 10:55:31,110.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:14:10,173.3
+2024-06-09 10:55:31,110.01-smoker-consumer.INFO  [x] Current temp: 173.3
+2024-06-09 10:55:34,113.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:14:15,173.3
+2024-06-09 10:55:34,114.01-smoker-consumer.INFO  [x] Current temp: 173.3
+2024-06-09 10:55:37,116.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:15:10,174.6
+2024-06-09 10:55:37,118.01-smoker-consumer.INFO  [x] Current temp: 174.6
+2024-06-09 10:55:40,118.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:15:15,174.6
+2024-06-09 10:55:40,120.01-smoker-consumer.INFO  [x] Current temp: 174.6
+2024-06-09 10:55:43,120.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:16:10,175.5
+2024-06-09 10:55:43,121.01-smoker-consumer.INFO  [x] Current temp: 175.5
+2024-06-09 10:55:46,123.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:16:15,175.5
+2024-06-09 10:55:46,124.01-smoker-consumer.INFO  [x] Current temp: 175.5
+2024-06-09 10:55:49,127.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:17:10,176.8
+2024-06-09 10:55:49,128.01-smoker-consumer.INFO  [x] Current temp: 176.8
+2024-06-09 10:55:52,130.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:17:15,176.8
+2024-06-09 10:55:52,131.01-smoker-consumer.INFO  [x] Current temp: 176.8
+2024-06-09 10:55:55,132.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:18:10,177.8
+2024-06-09 10:55:55,132.01-smoker-consumer.INFO  [x] Current temp: 177.8
+2024-06-09 10:55:58,134.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:18:15,177.8
+2024-06-09 10:55:58,134.01-smoker-consumer.INFO  [x] Current temp: 177.8
+2024-06-09 10:56:01,137.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:19:10,178.9
+2024-06-09 10:56:01,138.01-smoker-consumer.INFO  [x] Current temp: 178.9
+2024-06-09 10:56:04,140.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:19:15,178.9
+2024-06-09 10:56:04,141.01-smoker-consumer.INFO  [x] Current temp: 178.9
+2024-06-09 10:56:07,143.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:20:10,180.3
+2024-06-09 10:56:07,145.01-smoker-consumer.INFO  [x] Current temp: 180.3
+2024-06-09 10:56:10,145.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:20:15,180.3
+2024-06-09 10:56:10,145.01-smoker-consumer.INFO  [x] Current temp: 180.3
+2024-06-09 10:56:13,150.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:21:10,181.4
+2024-06-09 10:56:13,151.01-smoker-consumer.INFO  [x] Current temp: 181.4
+2024-06-09 10:56:16,152.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:21:15,181.4
+2024-06-09 10:56:16,154.01-smoker-consumer.INFO  [x] Current temp: 181.4
+2024-06-09 10:56:19,156.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:22:10,182.6
+2024-06-09 10:56:19,157.01-smoker-consumer.INFO  [x] Current temp: 182.6
+2024-06-09 10:56:22,158.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:22:15,182.6
+2024-06-09 10:56:22,159.01-smoker-consumer.INFO  [x] Current temp: 182.6
+2024-06-09 10:56:25,159.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:23:10,183.9
+2024-06-09 10:56:25,160.01-smoker-consumer.INFO  [x] Current temp: 183.9
+2024-06-09 10:56:28,168.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:23:15,183.9
+2024-06-09 10:56:28,169.01-smoker-consumer.INFO  [x] Current temp: 183.9
+2024-06-09 10:56:31,172.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:24:10,184.8
+2024-06-09 10:56:31,173.01-smoker-consumer.INFO  [x] Current temp: 184.8
+2024-06-09 10:56:34,175.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:24:15,184.8
+2024-06-09 10:56:34,176.01-smoker-consumer.INFO  [x] Current temp: 184.8
+2024-06-09 10:56:37,179.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:25:10,186.0
+2024-06-09 10:56:37,180.01-smoker-consumer.INFO  [x] Current temp: 186.0
+2024-06-09 10:56:40,181.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:25:15,186.0
+2024-06-09 10:56:40,182.01-smoker-consumer.INFO  [x] Current temp: 186.0
+2024-06-09 10:56:43,186.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:26:10,187.1
+2024-06-09 10:56:43,187.01-smoker-consumer.INFO  [x] Current temp: 187.1
+2024-06-09 10:56:46,193.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:26:15,187.1
+2024-06-09 10:56:46,195.01-smoker-consumer.INFO  [x] Current temp: 187.1
+2024-06-09 10:56:49,198.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:27:10,211.9
+2024-06-09 10:56:49,198.01-smoker-consumer.INFO  [x] Current temp: 211.9
+2024-06-09 10:56:52,200.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:27:15,211.9
+2024-06-09 10:56:52,201.01-smoker-consumer.INFO  [x] Current temp: 211.9
+2024-06-09 10:56:55,203.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:28:10,215.3
+2024-06-09 10:56:55,204.01-smoker-consumer.INFO  [x] Current temp: 215.3
+2024-06-09 10:56:58,206.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:28:15,215.3
+2024-06-09 10:56:58,206.01-smoker-consumer.INFO  [x] Current temp: 215.3
+2024-06-09 10:57:01,211.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:29:10,217.0
+2024-06-09 10:57:01,211.01-smoker-consumer.INFO  [x] Current temp: 217.0
+2024-06-09 10:57:04,216.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:29:15,217.0
+2024-06-09 10:57:04,217.01-smoker-consumer.INFO  [x] Current temp: 217.0
+2024-06-09 10:57:07,219.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:30:10,218.6
+2024-06-09 10:57:07,220.01-smoker-consumer.INFO  [x] Current temp: 218.6
+2024-06-09 10:57:10,222.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:30:15,218.6
+2024-06-09 10:57:10,223.01-smoker-consumer.INFO  [x] Current temp: 218.6
+2024-06-09 10:57:13,224.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:31:10,218.5
+2024-06-09 10:57:13,225.01-smoker-consumer.INFO  [x] Current temp: 218.5
+2024-06-09 10:57:16,227.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:31:15,218.5
+2024-06-09 10:57:16,228.01-smoker-consumer.INFO  [x] Current temp: 218.5
+2024-06-09 10:57:19,232.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:32:10,219.4
+2024-06-09 10:57:19,234.01-smoker-consumer.INFO  [x] Current temp: 219.4
+2024-06-09 10:57:22,234.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:32:15,219.4
+2024-06-09 10:57:22,234.01-smoker-consumer.INFO  [x] Current temp: 219.4
+2024-06-09 10:57:25,236.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:33:10,220.5
+2024-06-09 10:57:25,237.01-smoker-consumer.INFO  [x] Current temp: 220.5
+2024-06-09 10:57:28,237.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:33:15,220.5
+2024-06-09 10:57:28,238.01-smoker-consumer.INFO  [x] Current temp: 220.5
+2024-06-09 10:57:31,241.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:34:10,220.7
+2024-06-09 10:57:31,243.01-smoker-consumer.INFO  [x] Current temp: 220.7
+2024-06-09 10:57:34,247.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:34:15,220.7
+2024-06-09 10:57:34,247.01-smoker-consumer.INFO  [x] Current temp: 220.7
+2024-06-09 10:57:37,252.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:35:10,222.5
+2024-06-09 10:57:37,253.01-smoker-consumer.INFO  [x] Current temp: 222.5
+2024-06-09 10:57:40,254.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:35:15,222.5
+2024-06-09 10:57:40,255.01-smoker-consumer.INFO  [x] Current temp: 222.5
+2024-06-09 10:57:43,257.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:36:10,223.0
+2024-06-09 10:57:43,258.01-smoker-consumer.INFO  [x] Current temp: 223.0
+2024-06-09 10:57:46,260.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:36:15,223.0
+2024-06-09 10:57:46,261.01-smoker-consumer.INFO  [x] Current temp: 223.0
+2024-06-09 10:57:49,263.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:37:10,224.7
+2024-06-09 10:57:49,264.01-smoker-consumer.INFO  [x] Current temp: 224.7
+2024-06-09 10:57:52,268.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:37:15,224.7
+2024-06-09 10:57:52,269.01-smoker-consumer.INFO  [x] Current temp: 224.7
+2024-06-09 10:57:55,270.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:38:10,224.2
+2024-06-09 10:57:55,271.01-smoker-consumer.INFO  [x] Current temp: 224.2
+2024-06-09 10:57:58,274.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:38:15,224.2
+2024-06-09 10:57:58,275.01-smoker-consumer.INFO  [x] Current temp: 224.2
+2024-06-09 10:58:01,279.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:39:10,223.6
+2024-06-09 10:58:01,280.01-smoker-consumer.INFO  [x] Current temp: 223.6
+2024-06-09 10:58:04,284.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:39:15,223.6
+2024-06-09 10:58:04,285.01-smoker-consumer.INFO  [x] Current temp: 223.6
+2024-06-09 10:58:07,284.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:40:10,224.6
+2024-06-09 10:58:07,285.01-smoker-consumer.INFO  [x] Current temp: 224.6
+2024-06-09 10:58:10,284.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:40:15,224.6
+2024-06-09 10:58:10,285.01-smoker-consumer.INFO  [x] Current temp: 224.6
+2024-06-09 10:58:13,287.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:41:10,224.3
+2024-06-09 10:58:13,288.01-smoker-consumer.INFO  [x] Current temp: 224.3
+2024-06-09 10:58:16,288.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:41:15,224.3
+2024-06-09 10:58:16,288.01-smoker-consumer.INFO  [x] Current temp: 224.3
+2024-06-09 10:58:19,290.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:42:10,226.6
+2024-06-09 10:58:19,291.01-smoker-consumer.INFO  [x] Current temp: 226.6
+2024-06-09 10:58:22,292.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:42:15,226.6
+2024-06-09 10:58:22,293.01-smoker-consumer.INFO  [x] Current temp: 226.6
+2024-06-09 10:58:25,296.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:43:10,229.0
+2024-06-09 10:58:25,297.01-smoker-consumer.INFO  [x] Current temp: 229.0
+2024-06-09 10:58:28,303.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:43:15,229.0
+2024-06-09 10:58:28,304.01-smoker-consumer.INFO  [x] Current temp: 229.0
+2024-06-09 10:58:31,305.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:44:10,232.8
+2024-06-09 10:58:31,306.01-smoker-consumer.INFO  [x] Current temp: 232.8
+2024-06-09 10:58:34,308.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:44:15,232.8
+2024-06-09 10:58:34,309.01-smoker-consumer.INFO  [x] Current temp: 232.8
+2024-06-09 10:58:37,310.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:45:10,237.9
+2024-06-09 10:58:37,310.01-smoker-consumer.INFO  [x] Current temp: 237.9
+2024-06-09 10:58:40,311.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:45:15,237.9
+2024-06-09 10:58:40,312.01-smoker-consumer.INFO  [x] Current temp: 237.9
+2024-06-09 11:00:32,603.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:46:10,200.2
+2024-06-09 11:00:32,604.01-smoker-consumer.INFO Smoker Alert! The temperature has decreased by 15 degrees F. Current temperauture: [200.2]F
+2024-06-09 11:00:35,605.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:46:15,200.2
+2024-06-09 11:00:35,605.01-smoker-consumer.INFO Smoker Alert! The temperature has decreased by 15 degrees F. Current temperauture: [200.2]F
+2024-06-09 11:00:47,618.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:47:10,205.9
+2024-06-09 11:00:47,623.01-smoker-consumer.INFO Smoker Alert! The temperature has decreased by 15 degrees F. Current temperauture: [205.9]F
+2024-06-09 11:00:50,626.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:47:15,205.9
+2024-06-09 11:00:50,627.01-smoker-consumer.INFO Smoker Alert! The temperature has decreased by 15 degrees F. Current temperauture: [205.9]F
+2024-06-09 11:01:02,644.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:48:10,230.0
+2024-06-09 11:01:02,645.01-smoker-consumer.INFO  [x] Current temp: 230.0
+2024-06-09 11:01:05,647.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:48:15,230.0
+2024-06-09 11:01:05,648.01-smoker-consumer.INFO  [x] Current temp: 230.0
+2024-06-09 11:01:17,664.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:49:10,239.6
+2024-06-09 11:01:17,664.01-smoker-consumer.INFO  [x] Current temp: 239.6
+2024-06-09 11:01:20,665.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:49:15,239.6
+2024-06-09 11:01:20,666.01-smoker-consumer.INFO  [x] Current temp: 239.6
+2024-06-09 11:01:32,678.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:50:10,242.4
+2024-06-09 11:01:32,679.01-smoker-consumer.INFO  [x] Current temp: 242.4
+2024-06-09 11:01:35,681.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:50:15,242.4
+2024-06-09 11:01:35,682.01-smoker-consumer.INFO  [x] Current temp: 242.4
+2024-06-09 11:01:47,690.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:51:10,243.1
+2024-06-09 11:01:47,690.01-smoker-consumer.INFO  [x] Current temp: 243.1
+2024-06-09 11:01:50,694.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:51:15,243.1
+2024-06-09 11:01:50,695.01-smoker-consumer.INFO  [x] Current temp: 243.1
+2024-06-09 11:02:02,705.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:52:10,242.6
+2024-06-09 11:02:02,706.01-smoker-consumer.INFO  [x] Current temp: 242.6
+2024-06-09 11:02:05,707.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:52:15,242.6
+2024-06-09 11:02:05,708.01-smoker-consumer.INFO  [x] Current temp: 242.6
+2024-06-09 11:02:17,716.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:53:10,241.7
+2024-06-09 11:02:17,716.01-smoker-consumer.INFO  [x] Current temp: 241.7
+2024-06-09 11:02:20,718.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:53:15,241.7
+2024-06-09 11:02:20,718.01-smoker-consumer.INFO  [x] Current temp: 241.7
+2024-06-09 11:02:32,726.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:54:10,241.4
+2024-06-09 11:02:32,726.01-smoker-consumer.INFO  [x] Current temp: 241.4
+2024-06-09 11:02:35,728.01-smoker-consumer.INFO  [x] Received: 05/22/21 13:54:15,241.4
+2024-06-09 11:02:35,731.01-smoker-consumer.INFO  [x] Current temp: 241.4
+2024-06-09 11:02:40,747.01-smoker-consumer.INFO  User interrupted continuous listening process.
+2024-06-09 11:02:40,747.01-smoker-consumer.INFO 
 Closing connection. Goodbye.
 

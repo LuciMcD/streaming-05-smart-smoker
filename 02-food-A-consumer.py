@@ -33,7 +33,7 @@ def foodA_callback(ch, method, properties, body):
     foodA_deque.append(temp)
 
     if len(foodA_deque) == 5:
-        temp_diff = temp[-1] - temp[0]
+        temp_diff = foodA_deque[-1][0] - foodA_deque[0][0]
         if temp_diff < 1:
             logger.info(f"Alert! Food temperature stall! {temp}")
     # when done with task, tell the user

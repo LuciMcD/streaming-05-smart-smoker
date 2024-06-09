@@ -32,7 +32,7 @@ def foodB_callback(ch, method, properties, body):
     foodB_deque.append(temp)
 
     if len(foodB_deque) == 5:
-        temp_diff = temp[-1] - temp[0]
+        temp_diff = foodB_deque[-1][0] - foodB_deque[0][0]
         if temp_diff < 1:
           logger.info(f"Alert! Food B temperature has stalled. Current temp: {temp}")
         else:
