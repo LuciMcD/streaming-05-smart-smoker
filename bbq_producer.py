@@ -56,7 +56,7 @@ def send_temps(host: str, queue_name: str):
             header = next(reader) #skipping the header row
             for row in reader:
                 Time,Channel1,Channel2,Channel3 = row
-                time.sleep(3)
+                time.sleep(30)
                 if Channel1: #ignoring null values
                     smoker_temp = ','.join([Time, Channel1])
                     ch.basic_publish(exchange="", routing_key="01-smoker", body=smoker_temp)

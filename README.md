@@ -28,3 +28,14 @@ This is the logger showing the data sent by the bbq_producer.py
 This is the data in the 3 different queues.
 ![alt text](image-1.png)
 
+## The Consumers
+I chose to use 3 separate consumers. The 01-smoker-consumer.py reads the temperature of the smoker and alerts when the temperature falls below 15 degrees F. Then 02-food-A-consumer and 03-food-B-consumer read their corresponding food temps and alerts when the food temp changes less than 1 degree. 
+
+This the log showing the first smoker alert.
+![alt text](image-2.png)
+
+This is the log showing the first foodA alert.
+![alt text](image-3.png)
+
+This is the log showing the first foodB alert.
+![alt text](image-4.png)
